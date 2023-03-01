@@ -5,13 +5,13 @@ import { LayoutRoutingModule } from './layout-routing.module';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
-import { MaterialComponent } from './material/material.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import {MatExpansionModule} from "@angular/material/expansion";
+import { LayoutComponent } from './layout/layout.component';
 
 
 @NgModule({
@@ -19,7 +19,7 @@ import {MatExpansionModule} from "@angular/material/expansion";
     FooterComponent,
     HeaderComponent,
     SidenavComponent,
-    MaterialComponent
+    LayoutComponent
   ],
   imports: [
     CommonModule,
